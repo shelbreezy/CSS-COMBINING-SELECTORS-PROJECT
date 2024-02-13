@@ -1,0 +1,37 @@
+/* Write your code here: */
+
+
+
+/* Child Selector - first is the parent second is the child */
+
+.box > p {
+    color: firebrick;
+}
+
+
+/* Grouping Selector - everything is applied to both selectors h1 and h2 */
+
+h1, h2 {
+    color: blueviolet
+}
+
+
+/* Descendant Selector - targets a grandchild of the first selector  */
+
+.box li {
+    color: blue;
+}
+
+
+/* Chaining Selector - Apply where ALL selectors are true  */
+
+li.done {
+    color: seagreen;
+}
+
+
+/*   */
+
+ul p.done {
+    font-size: 0.5rem
+}
